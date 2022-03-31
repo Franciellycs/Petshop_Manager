@@ -1,0 +1,46 @@
+<html>
+    <body>
+        <h2> Cadastro de Cliente </h2>
+        <form>
+            <fieldset>
+                <label>Nome</label>
+                <input type="text" name="txCliente" pattern="[a-zA-z]+$">
+                <label>Nacionalidade: </label>
+                <input type="text" name="txNacionalidade" pattern="[a-zA-z]+$">
+                <label>CPF (ou passaporte): </label>
+                <input type="text" name="txCPF">
+                <label>E-mail: </label>
+                <input type="email" name="txEmail">
+                <label>Telefone: </label>
+                <input type="tel" name="txFone">
+                <label>Rua: </label>
+                <input type="text" name="txRua">
+                <label>Número: </label>
+                <input type="number" name="txNum">
+                <label>Cidade: </label>
+                <select id="cidade" name="selCidade">
+                    <option></option>
+                </select>
+                <label>Complemento: </label>
+                <input type="text" name="txComplemento">
+                <input type="button" value="Cadastre seu Pet">
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Cadastrar">
+            </fieldset>
+            <fieldset>
+                <table>
+                    <td>Nome</td>
+                    <td>Nacionalidade</td>
+                    <td>CPF/Passaporte</td>
+                    <td>E-mail</td>
+                    <td>Telefone</td>
+                    <td>Rua</td>
+                    <td>Número</td>
+                    <td>Cidade</td>
+                    <td>Complemento</td>
+                </table>
+                <button type="button">Alterar</button>
+                <button type="button">Remover</button> 
+            </fieldset>
+    </body>
+</html>
